@@ -164,3 +164,78 @@ body.fade-out {
 }
 
 /* jeg glemmer alltid å optimalisere mer, men det funker :) */
+.web-interesser {
+  margin-top: 22px;
+  margin-bottom: 18px;
+  font-size: 1.10rem;
+  text-align: center;
+}
+.web-badges-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 8px 0;
+}
+.web-badge {
+  display: inline-block;
+  padding: 7px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 24px;
+  color: #fff;
+  background: linear-gradient(90deg, #8f8f8f, #555); /* default fallback */
+  box-shadow: 0 2px 11px rgba(0,0,0,0.09);
+  transition: transform 0.18s, box-shadow 0.18s;
+  letter-spacing: 0.02em;
+  border: none;
+  cursor: default;
+  position: relative;
+  z-index: 1;
+}
+.web-badge:hover, .web-badge:focus {
+  transform: scale(1.07) rotate(-2deg);
+  box-shadow: 0 4px 22px rgba(0,0,0,0.19);
+}
+
+/* individuelle gradienter */
+.web-badge.html {
+  background: linear-gradient(90deg, #ff6600 0%, #ffb347 100%);
+  box-shadow: 0 2px 14px rgba(255, 102, 0, 0.15);
+}
+.web-badge.css {
+  background: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%);
+  box-shadow: 0 2px 14px rgba(0, 124, 240, 0.13);
+}
+.web-badge.js {
+  background: linear-gradient(90deg, #f7e018 0%, #ffd700 100%);
+  color: #222;
+  box-shadow: 0 2px 14px rgba(247, 224, 24, 0.12);
+}
+.web-badge.csharp {
+  background: linear-gradient(90deg, #68217a 0%, #a259c4 100%);
+}
+.web-badge.python {
+  background: linear-gradient(90deg, #366994 0%, #ffe873 100%);
+  color: #222;
+}
+.web-badge.db {
+  background: linear-gradient(90deg, #009688 0%, #43e97b 100%);
+}
+.web-badge.ai {
+  background: linear-gradient(90deg, #6741d9 0%, #e66465 100%);
+}
+.web-badge.php {
+  background: linear-gradient(90deg, #c02823 0%, #e99d5f 100%);
+}
+
+/* Responsiv justering for merker */
+@media (max-width: 600px) {
+  .web-badges-row {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .web-badge {
+    padding: 7px 12px;
+    font-size: 0.95rem;
+  }
+}

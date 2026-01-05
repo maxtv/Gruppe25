@@ -13,29 +13,110 @@
         <ul>
             <li><a href="index.html">Hjem</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="HTML/tidligereProsjekter.html">Tidligere prosjekter</a></li>
         </ul>
     </nav>
 
     <section class="hero" id="hero">
         <div class="hero-left">
-            <h1>Gruppe 22</h1>
-            <h2>
-                Vi er en gruppe hardtarbeidende studenter som ser frem til å jobbe sammen, hjelpe hverandre og lære av hverandre.
-                Vi har som mål å kombinere styrkene til alle gruppe medlemmene for å  lage et produkt eller prosjekt som vi selv kan være fornøyde med. 
-            </h2>
-            <h4>
-                Gruppen har per nå 04.09.25, ikke diskutert noe stort om hvilket prosjekt vi vil fokusere på, men innad den kommende uken så har vi mål å foreta research og plenum samtaler for å finne ut av dette. 
-                Det samme gjelder også valg av bedrift, dette vil bli foretatt etter prosjekt planleggingen er over.   
-            </h4>
+            <h1 class="gruppe22-animated">Gruppe 22</h1>
+            <div class="hero-intro-area">
+                <p class="hero-intro">
+                    Hei, vi er gruppe 22. Hvem er vi? Jo vi er en gruppe hardtarbeidende IT studenter som våkner opp vær morgen spent på hva morgendagen har å tilby ...
+                </p>
+                <button class="hero-expand-btn" id="expandHeroText">Klikk for å se mer</button>
+            </div>
             <a href="#profiles" class="hero-btn">Utforsk medlemmene</a>
+        </div>
+        <!-- Modal overlay for full text -->
+        <div class="hero-modal" id="heroTextModal">
+            <div class="hero-text-full">
+                <p>
+                Hei, vi er gruppe 22. Hvem er vi? Jo, vi er en gruppe hardtarbeidende IT-studenter
+                som våkner opp hver morgen spent på hva morgendagen har å tilby, hvilke muligheter
+                dagen bringer. Vi gleder oss til å jobbe sammen, til gode samtaler, godt arbeid,
+                gode ideer, men også til å ha det gøy, lære nye teknologier, løse problemer sammen,
+                og å gjøre det bra sammen.
+                </p>
+
+                <p>
+                Innad i gruppen har alle sine felt som de er best på enten det er akademisk,
+                programmering, databaser, eller rett og slett bare å løfte opp humøret når det
+                trengs eller passe på at alle har det bra. Siden vi alle er forskjellige og har
+                forskjellige styrker, er målet å kombinere disse for å lage et produkt eller en
+                tjeneste vi alle kan være stolte av og som også bedriften vi jobber for i fremtiden
+                vil sette pris på.
+                </p>
+
+                <p>
+                Vi har kanskje ikke hittil blitt enige om hvilket prosjekt eller tjeneste vi vil
+                jobbe med det kommende året, men dette er noe vi aktivt snakker og diskuterer.
+                Siden mulighetene er mange, er det viktig å ta seg god tid i idéfasen. Når det
+                gjelder valg av bedrift, diskuterer vi aktivt hvem vi kunne tenke oss å samarbeide
+                med. Uansett hvem vi ender opp med, vil vi jobbe hardt og flittig for å levere
+                et godt produkt.
+                </p>
+                <button class="hero-close-btn" id="closeHeroText">Lukk</button>
+            </div>
         </div>
         <div class="hero-right">
             <img src="images/gruppebilde2.png" alt="Bakgrunnsbilde">
         </div>
     </section>
 
+    <section class="group-cards-section">
+        <div class="group-cards-2x2">
+            <!-- Rad 1 -->
+            <div class="group-cards-row">
+            <div class="group-card">
+                <img src="images/grouppeople.svg" alt="Samarbeid & Mangfold ikon" class="card-icon">
+                <h3>Samarbeid & Mangfold</h3>
+                <p>
+                Vi er en gruppe med forskjellige bakgrunner og styrker, og vi tror at det er gjennom samarbeid og mangfold vi får de beste resultatene. Alle bidrar med noe unikt enten det er teknisk kunnskap, godt humør, eller omsorg for teamet.
+                </p>
+            </div>
+            <div class="group-card">
+                <img src="images/lightbulb.svg" alt="Læringsglede & Nysgjerrighet ikon" class="card-icon">
+                <h3>Læringsglede & Nysgjerrighet</h3>
+                <p>
+                Nysgjerrighet og lærelyst driver oss til å utforske nye teknologier og utvikle oss sammen. Hver dag gir nye muligheter til å vokse, løse problemer og finne kreative løsninger på utfordringer
+                </p>
+            </div>
+            </div>
+            <!-- Rad 2 -->
+            <div class="group-cards-row">
+            <div class="group-card">
+                <img src="images/mountain.svg" alt="Felles Mål & Ambisjoner ikon" class="card-icon">
+                <h3>Felles Mål & Ambisjoner</h3>
+                <p>
+                Ambisjonene våre er å lage et produkt vi kan være stolte av. Aktive diskusjoner om ideer og muligheter hjelper oss å jobbe strukturert mot felles mål med høy kvalitet og ekte verdi for samarbeidspartneren.
+                </p>
+            </div>
+            <div class="group-card">
+                <img src="images/bowarrow.svg" alt="Arbeidsglede & Fremtidstro ikon" class="card-icon">
+                <h3>Arbeidsglede & Fremtidstro</h3>
+                <p>
+                Godt miljø og entusiasme preger samarbeidet. Innsatsen løfter oss, og troen er sterk på at det vi leverer vil bli satt pris på av både oss selv og fremtidige arbeidsgivere.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promovideo-section">
+        <h1>Vår video</h1>
+        <div class="promovideo-container">
+            <iframe src="https://www.youtube.com/embed/8Q6BbFXWCOs" 
+                    title="Promovideo for Gruppe 22"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
     <section class="profiles" id="profiles">
-        <h1>Om oss</h1>
+        <h2>Om oss</h2>
         <div class="profile-list">
             <a href="HTML/Medlemmer/jay.html" class="profile-card">
                 <img src="images/jay2.png" alt="Jay">
@@ -66,8 +147,9 @@
     </section>
     <section class="contact-section" id="kontakt">
     <img src="images/uialogo.png" alt="UiA Logo" class="uia-logo">
-    <p>Kontakt oss: <span>+47 996 81 522</span></p>
+    <p>Kontakt oss: <span class="epost">maxrt@uia.no</span> <br> <span>+47 996 81 522</span></p>
     </section>
     <script src="JS/smoothflow.js"></script>
+    <script src="JS/heroexpand.js"></script>
 </body>
 </html>
