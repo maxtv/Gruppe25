@@ -1,0 +1,24 @@
+[
+  {
+    "player_name": "Max Fiction",
+    "total_distance_m": 11200,
+    "max_speed_kph": 33.8,
+    "sprint_count": 20,
+    "work_rate_m_per_min": 104,
+    "touches": 255,
+    "position": "Forward",
+    "session_type": "Match",
+    "date": "2026-02-12"
+  },
+  {
+    "player_name": "Sample Cat",
+    "total_distance_m": 9400,
+    "max_speed_kph": 31.2,
+    "sprint_count": 15,
+    "work_rate_m_per_min": 90,
+    "touches": 190,
+    "position": "Midfielder",
+    "session_type": "Match",
+    "date": "2026-02-11"
+  }
+]

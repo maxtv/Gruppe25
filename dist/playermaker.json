@@ -1,0 +1,47 @@
+[
+  {
+    "Player Name": "Halland",
+    "Distance Covered (m)": "9800",
+    "Top Speed (m/s)": "9.2",
+    "Sprint Count (#)": "18",
+    "Work Rate (m/min)": "95",
+    "Total Touches (#)": "220",
+    "Position": "Forward",
+    "Session Type": "Match",
+    "Date": "2026-02-10"
+  },
+  {
+    "Player Name": "Eriksson",
+    "Distance Covered (m)": "10200",
+    "Top Speed (m/s)": "8.7",
+    "Sprint Count (#)": "12",
+    "Work Rate (m/min)": "88",
+    "Total Touches (#)": "180",
+    "Position": "Midfielder",
+    "Session Type": "Match",
+    "Date": "2026-02-10"
+  },
+  {
+    "Player Name": "A. Johnson",
+    "Distance Covered (m)": "8700",
+    "Top Speed (m/s)": "9.0",
+    "Sprint Count (#)": "14",
+    "Work Rate (m/min)": "92",
+    "Total Touches (#)": "205",
+    "Position": "Winger",
+    "Session Type": "Match",
+    "Date": "2026-02-09"
+  }
+  ,
+  {
+    "Player Name": "Max Fiction",
+    "Distance Covered (m)": "11200",
+    "Top Speed (m/s)": "9.4",
+    "Sprint Count (#)": "21",
+    "Work Rate (m/min)": "105",
+    "Total Touches (#)": "260",
+    "Position": "Forward",
+    "Session Type": "Match",
+    "Date": "2026-02-12"
+  }
+]
